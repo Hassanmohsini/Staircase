@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Staircase</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .parent {
+            width: 600px;
+            height: 600px;
+            margin: 3rem;
+            position: relative;
+            z-index: 1;
+        }
+        .parent div {
+            height: 150px;
+            width: 150px;
+            background: #800080;
+            background: linear-gradient(
+                45deg,
+                #800080 0% 20%,
+                #17f802 20% 40%,
+                #f54702 40% 60%,
+                #2601f8 60% 80%,
+                #f70190 80% 100%,
+                #800080
+            );
+        }
+        .parent div div {
+            border: 8px solid rgb(10, 10, 10);
+            box-sizing: border-box;
+        }
+        .child-2 {
+            padding-left: 150px;
+        }
+        .child-3 {
+            padding-left: 300px;
+        }
+        .child-4 {
+            padding-left: 450px;
+        }
+
+        h1 {
+            position: absolute;
+            z-index: 2;
+            left: 315px;
+            top: 260px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent">    <h1>Staircase</h1>
+        <div class="child-1">
+            <div id="box"></div>
+        </div>
+        <div class="child-2">
+            <div id="box"></div>
+        </div>
+        <div class="child-3">
+            <div id="box"></div>
+        </div>
+        <div class="child-4">
+            <div id="box"></div>
+        </div>
+    </div>
+
+</body>
+</html>
