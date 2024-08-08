@@ -2,5 +2,5 @@
 
 This is a brief description of my project.
 
-![Project Screenshot](./screenshot.jpg)
+![Project Screenshot](./Screenshot.jpg)
 
