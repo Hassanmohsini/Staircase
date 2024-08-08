@@ -1,6 +1,6 @@
 # My Project
 
-This is a brief description of my project.
+Bellow is the screenshot of my project.
 
 ![Project Screenshot](./Screenshot.jpg)
 
